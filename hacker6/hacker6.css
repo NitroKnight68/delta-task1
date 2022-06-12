@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #27292a;
+  font-family: "Fugaz One", cursive;
+}
+.background-div {
+  margin: 0;
+  padding: 0 0 3rem;
+  background-image: url("./../dark-back.png");
+}
+.delta-img {
+  margin: 2rem 0 0;
+  height: 8rem;
+}
+.title-h1 {
+  margin: 1.5rem;
+  font-family: "Fugaz One", cursive;
+  font-size: 8rem;
+}
+.subtitle-h1 {
+  margin: 1.5rem;
+  font-family: "Fugaz One", cursive;
+  font-size: 4rem;
+}
+.mode-div button {
+  font-family: "Fugaz One", cursive;
+  margin: 2rem 2rem 0;
+  padding: 1rem 1.7rem;
+  color: #27292a;
+  font-size: 1.3rem;
+  background-color: #ffffff;
+  border: 0;
+}
+.mode-div button:hover {
+  background-color: #cbcbcb;
+}
+.level-div {
+  padding: 2rem;
+  font-size: 2rem;
+  margin: 0 15rem 2rem;
+}
+.tile-div {
+  width: 30rem;
+  display: grid;
+  gap: 2px;
+  grid-template-columns: repeat(6, 5rem);
+  grid-template-rows: repeat(6, 5rem);
+  margin: auto;
+}
+.tile {
+  margin: 0;
+  height: 4.33rem;
+  width: 4.33rem;
+  background-color: #ffffff;
+}
+.start-btn {
+  font-family: "Fugaz One", cursive;
+  margin: 4rem auto 2rem;
+  padding: 1.2rem 4rem;
+  color: #27292a;
+  font-size: 1.5rem;
+  background-color: #ffffff;
+  border: 0;
+}
+.start-btn:hover {
+  background-color: #cbcbcb;
+}
+.foursix-div button {
+  font-family: "Fugaz One", cursive;
+  margin: 0.5rem 2rem 1.5rem;
+  padding: 0.5rem 3rem;
+  color: #27292a;
+  font-size: 1.3rem;
+  background-color: #ffffff;
+  border: 0;
+}
+.foursix-div button:hover {
+  background-color: #cbcbcb;
+}
+.game-over {
+  background-color: #e5202b;
+}
+.flashed {
+  background-color: #747474;
+}
+.pressed {
+  height: 4.5rem;
+  width: 4.5rem;
+  background-color: #cbcbcb;
+}
+
+
+/* MEDIA QUERIES */
+@media (min-width: 1601px) {
+  body {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1441px) {
+  body {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1281px) {
+  body {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1025px) {
+  body {
+    font-size: 12.8px;
+  }
+}
+@media (min-width: 769px) {
+  body {
+    font-size: 9.6px;
+  }
+}
+@media (min-width: 541px) {
+  body {
+    font-size: 6.75px;
+  }
+}
+@media (max-width: 769px) {
+  .level-div {
+    margin: 0 5rem 2rem;
+  }
+}
+@media (max-width: 541px) {
+  .title-h1 {
+    font-size: 6rem;
+  }
+  .subtitle-h1 {
+    font-size: 3rem;
+  }
+  .tile-div {
+    width: 20rem;
+    display: grid;
+    gap: 2px;
+    grid-template-columns: repeat(6, 3.33rem);
+    grid-template-rows: repeat(6, 3.33rem);
+    margin: auto;
+  }
+  .tile {
+    margin: 0;
+    height: 3rem;
+    width: 3rem;
+    background-color: #ffffff;
+  }
+  .pressed {
+    background-color: #424345;
+  }
+}
+@media (min-width: 361px) {
+  body {
+    font-size: 4px;
+  }
+}
+@media (min-width: 241px) {
+  body {
+    font-size: 2.5px;
+  }
+}
