@@ -52,11 +52,11 @@ function nextTile() {
   prePattern.forEach(function (tile, i) {
     setTimeout(function () {
       $("#" + tile).addClass("flashed");
+      soundPiano(tile);
       setTimeout(function () {
         $("#" + tile).removeClass("flashed");
-      }, 150);
-      soundPiano(tile);
-    }, i * 150);
+      }, 300);
+    }, i * 300);
   });
 }
 

@@ -74,9 +74,9 @@ function nextTile() {
       $("#" + tile).addClass("flashed");
       setTimeout(function () {
         $("#" + tile).removeClass("flashed");
-      }, 150);
+      }, 300);
       soundPiano(tile);
-    }, i * 150);
+    }, i * 300);
   });
 }
 
